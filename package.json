@@ -1,6 +1,6 @@
 {
   "name": "@firstclasspostcodes/metrics",
-  "version": "0.0.0",
+  "version": "v1.0.0",
   "description": "Provides easy integration for instrumenting code using custom CloudWatch metrics.",
   "author": "Firstclasspostcodes <support@firstclasspostcodes.com> (https://firstclasspostcodes.com/)",
   "main": "lib/index.js",
