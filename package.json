@@ -1,0 +1,46 @@
+{
+  "name": "@firstclasspostcodes/metrics",
+  "version": "0.0.0",
+  "description": "Provides easy integration for instrumenting code using custom CloudWatch metrics.",
+  "author": "Firstclasspostcodes <support@firstclasspostcodes.com> (https://firstclasspostcodes.com/)",
+  "main": "lib/index.js",
+  "scripts": {
+    "commit": "npx git-cz",
+    "lint": "eslint . --ext js",
+    "format": "prettier --ignore-path .eslintignore --write \"**/*.+(js|jsx|json|yml|yaml|css|md|vue)\"",
+    "test": "jest --collectCoverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/firstclasspostcodes/metrics.git"
+  },
+  "keywords": [
+    "aws",
+    "cloudwatch",
+    "metrics"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/firstclasspostcodes/metrics/issues"
+  },
+  "homepage": "https://github.com/firstclasspostcodes/metrics#readme",
+  "dependencies": {
+    "cosmiconfig": "^6.0.0",
+    "pascalcase": "^1.0.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-angular": "^8.3.4",
+    "aws-sdk": "^2.681.0",
+    "aws-sdk-mock": "^5.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.3",
+    "git-cz": "^4.3.1",
+    "husky": "^4.2.5",
+    "jest": "^26.0.1",
+    "prettier": "^2.0.5",
+    "semantic-release": "^17.0.7"
+  }
+}

@@ -1,0 +1,5 @@
+.dependabot
+.github
+.eslint*
+.prettier*
+commit*
