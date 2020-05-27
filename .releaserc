@@ -8,7 +8,7 @@
         "replacements": [
           {
             "files": ["package.json"],
-            "from": "\"version\": \"[\\.0-9]\"",
+            "from": "\"version\": \".*\"",
             "to": "\"version\": \"${nextRelease.gitTag}\"",
             "results": [
               {
