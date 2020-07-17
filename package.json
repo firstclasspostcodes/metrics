@@ -29,7 +29,7 @@
     "pascalcase": "^1.0.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^9.0.1",
+    "@commitlint/cli": "^9.1.1",
     "@commitlint/config-angular": "^9.1.1",
     "@google/semantic-release-replace-plugin": "^1.0.0",
     "@semantic-release/git": "^9.0.0",
