@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/firstclasspostcodes/metrics#readme",
   "dependencies": {
-    "cosmiconfig": "^6.0.0",
+    "cosmiconfig": "^7.0.0",
     "pascalcase": "^1.0.0"
   },
   "devDependencies": {
