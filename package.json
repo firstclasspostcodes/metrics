@@ -33,7 +33,7 @@
     "@commitlint/config-angular": "^9.1.1",
     "@google/semantic-release-replace-plugin": "^1.0.0",
     "@semantic-release/git": "^9.0.0",
-    "aws-sdk": "^2.724.0",
+    "aws-sdk": "^2.728.0",
     "aws-sdk-mock": "^5.1.0",
     "eslint": "^7.5.0",
     "eslint-config-airbnb": "^18.2.0",
