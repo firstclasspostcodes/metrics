@@ -82,9 +82,14 @@ const { longRunningFunc } = require('./example');
 exports.handler = async (event) => {
   metrics.interestingMetric(event.someValue.length);
 
+  // record the same metric with a custom dimension
+  metrics.interestingMetric(event.someValue.length, [{
+    countryName: 'United States',
+  }])
+
   const data = await metrics.longRunningFunction(() => {
     // this will measure how long it takes to execute using perf_tools
-    return longRunningFunc(event.someValue
+    return longRunningFunc(event.someValue);
   }));
 
   // will log a warning to the console and ignore this
