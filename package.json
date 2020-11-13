@@ -35,7 +35,7 @@
     "@semantic-release/git": "^9.0.0",
     "aws-sdk": "^2.786.0",
     "aws-sdk-mock": "^5.1.0",
-    "eslint": "^7.12.1",
+    "eslint": "^7.13.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-prettier": "^6.15.0",
     "eslint-plugin-prettier": "^3.1.4",
